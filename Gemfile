@@ -5,10 +5,17 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
-
+# i18n 
+gem 'rails-i18n'
 # gem devise (autentica)
 gem 'devise'
+# Upload de img
+gem 'carrierwave'
 # Use SCSS for stylesheets
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+
+gem 'twitter-bootstrap-rails'
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
